@@ -120,11 +120,6 @@ article p {
 }
 
 
- 
-
-
-
-
 
 #bg-video {
     position: fixed;
@@ -138,6 +133,56 @@ article p {
 }
 
 
+
+.blocos{
+    margin-left: 21%;
+    display: inline-flex ;
+    gap: 50px;
+   
+    
+}
+
+.bloco1, .bloco2, .bloco3{
+    
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 260px;
+    height:500px;
+}
+
+.bloco1{
+    background-color: black;
+    background-image: url("imagens/proj-android-260.jpeg");
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+
+.bloco2{
+    
+    background-color: black;
+    background-image: url("imagens/loja-cards-cortado.xcf");
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+
+div.discricao{
+    margin-top: 108%;
+    text-align: justify;
+    padding: 5px 5px 0px 5px;
+}
+
+/* .blocos{
+    margin-left: 17%;
+    display: inline-flex ;
+    gap: 50px;
+    
+} */
 
 
 
