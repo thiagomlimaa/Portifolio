@@ -24,6 +24,8 @@ nav a{
 
 body{
     /* background-color: var(--cor1); */
+    /* background: black url("video/video3.mp4") center top / cover no-repeat fixed; */
+
     
     color: white;
     font-family: 'Arial', sans-serif;
@@ -82,7 +84,7 @@ article.sobre{
 
 article p {
   max-width: 600px;       /* Limita a largura do texto para ficar compacto */
-  margin: 0 0 0 50px;  /* top right bottom left */
+  margin: 0 0 0 0px;  /* top right bottom left */
   text-align: left;        /* Deixa o texto alinhado à esquerda */
   padding: 20px 15px 10px 15px;      /* Espaçamento interno confortável */
   
@@ -124,16 +126,18 @@ article p {
 
 
 
+#bg-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
 
 
 
-/* #bg-video {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
-} */
 
 
