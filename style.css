@@ -151,23 +151,27 @@ article p {
 }
 
 .bloco1{
-    background-color: black;
+    /* background-color: black;
     background-image: url("imagens/proj-android-260.jpeg");
     background-position: center top;
     background-size: contain;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: scroll; */
+
+    background: black url("imagens/proj-android-260.jpeg") center top / contain no-repeat scroll;
 }
 
 
 .bloco2{
     
-    background-color: black;
-    background-image: url("imagens/loja-cards-cortado.xcf");
+    /* background-color: black;
+    background-image: url("imagens/loja-cards-260.jpeg");
     background-position: center top;
     background-size: contain;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: scroll; */
+
+    background: black url("imagens/loja-cards-260.jpeg") center top / contain no-repeat scroll;
 }
 
 
