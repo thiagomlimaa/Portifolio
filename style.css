@@ -146,7 +146,7 @@ article p {
     
     border: 3px solid white;
     border-radius: 10px;
-    width: 260px;
+    width: 290px;
     height:500px;
 }
 
@@ -158,7 +158,7 @@ article p {
     background-repeat: no-repeat;
     background-attachment: scroll; */
 
-    background: black url("imagens/proj-android-260.jpeg") center top / contain no-repeat scroll;
+    background: black url("imagens/android-290.jpeg") center top / contain no-repeat scroll;
 }
 
 
@@ -171,7 +171,7 @@ article p {
     background-repeat: no-repeat;
     background-attachment: scroll; */
 
-    background: black url("imagens/loja-cards-260.jpeg") center top / contain no-repeat scroll;
+    background: black url("imagens/cards-290\ novoo.jpeg") center top / contain no-repeat scroll;
 }
 
 
