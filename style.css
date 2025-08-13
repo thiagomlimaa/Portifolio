@@ -132,6 +132,13 @@ article p {
     z-index: -1;
 }
 
+h1.proj{
+    width: 100%;
+    padding-top: 105px;
+    padding-bottom: 100px;
+    padding-left: 20%;
+}
+
 
 
 .blocos{
@@ -147,7 +154,7 @@ article p {
     border: 3px solid white;
     border-radius: 10px;
     width: 290px;
-    height:500px;
+    height: 450px;
 }
 
 .bloco1{
@@ -158,7 +165,7 @@ article p {
     background-repeat: no-repeat;
     background-attachment: scroll; */
 
-    background: black url("imagens/android-290.jpeg") center top / contain no-repeat scroll;
+    background: black url("imagens/proj-android-260.jpeg") center top / contain no-repeat scroll;
 }
 
 
@@ -171,22 +178,44 @@ article p {
     background-repeat: no-repeat;
     background-attachment: scroll; */
 
-    background: black url("imagens/cards-290\ novoo.jpeg") center top / contain no-repeat scroll;
+    background: black url("imagens/loja-cards-260.jpeg") center top / contain no-repeat scroll;
 }
 
 
 div.discricao{
-    margin-top: 108%;
+    margin-top: 60%;
     text-align: justify;
-    padding: 5px 5px 0px 5px;
+    padding: 5px 5px 0px 10px;
 }
 
-/* .blocos{
-    margin-left: 17%;
-    display: inline-flex ;
-    gap: 50px;
+div.text-card{
+   
+    text-align: left;
+    text-indent: 20px;
+    padding: 0px 10px 0px 10px;
+    margin-top: 30px;
+}
+
+
+
+img.img-html{
+    margin: 50px 50px 0px 30px;
+    width: 40px;
+}
+
+img.img-css{
+    /* margin-right: 20px; */
     
-} */
+    
+   width: 40px;
+}
+
+img.img-js{
+    margin: 0px 0px 0px 50px;
+   width: 40px;
+}
 
 
-
+div.conj-img{
+   align-items: center;
+}
