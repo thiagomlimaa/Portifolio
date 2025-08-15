@@ -65,6 +65,7 @@ header div > p{
 
 article.sobre{
     /* background-color: var(--cor1); */
+    
     width: 100;
     margin: 0%;
     padding: 0%;
@@ -97,8 +98,9 @@ article p {
 }
 
 .h1-tecno{
+    padding-top: 150px;
     width: 100%;
-    padding-top: 105px;
+    /* padding-top: 105px; */
     padding-bottom: 100px;
     padding-left: 20%;
 }
@@ -133,8 +135,9 @@ article p {
 }
 
 h1.proj{
+    padding-top: 235px;
     width: 100%;
-    padding-top: 105px;
+    /* padding-top: 105px; */
     padding-bottom: 100px;
     padding-left: 20%;
 }
@@ -142,6 +145,7 @@ h1.proj{
 
 
 .blocos{
+    margin-bottom: 600px;
     margin-left: 21%;
     display: inline-flex ;
     gap: 50px;
@@ -191,7 +195,7 @@ div.discricao{
 div.text-card{
    
     text-align: left;
-    text-indent: 20px;
+    text-indent: 15px;
     padding: 0px 10px 0px 10px;
     margin-top: 30px;
 }
