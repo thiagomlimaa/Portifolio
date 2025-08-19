@@ -7,6 +7,9 @@
     --cor3: #415A77;
     --cor4: #778DA9;
     --cor5: #E0E1DD;
+
+    --amarelo-neon: #FFFF00;
+    --amarelo-canario: #FFEF00;
 }
 
 nav{
@@ -17,7 +20,7 @@ nav{
 }
 
 nav a{
-    color: var(--cor5);
+    color: var(--amarelo-neon);
     margin: 15px;
     font-size: 18px;
 }
@@ -26,7 +29,7 @@ body{
     /* background-color: var(--cor1); */
     /* background: black url("video/video3.mp4") center top / cover no-repeat fixed; */
 
-    
+    background-color: black;
     color: white;
     font-family: 'Arial', sans-serif;
     margin: 0%;
@@ -47,6 +50,7 @@ header div > p{
 
 
 .apresentacao {
+  color: var(--amarelo-neon);
   display: flex;
   justify-content: center;
   gap: 50px; 
@@ -76,6 +80,7 @@ article.sobre{
 }
 
 .sobre h1{
+    color: var(--amarelo-neon);
     width: 100%;
     margin: 0%;
     padding-top: 150px;
@@ -84,6 +89,7 @@ article.sobre{
 }
 
 article p {
+    color: var(--amarelo-canario);
   max-width: 600px;       /* Limita a largura do texto para ficar compacto */
   margin: 0 0 0 0px;  /* top right bottom left */
   text-align: left;        /* Deixa o texto alinhado à esquerda */
